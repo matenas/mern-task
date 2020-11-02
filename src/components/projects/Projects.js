@@ -1,11 +1,13 @@
 import React from 'react';
-import Sidebar from "./sidebar/Sidebar";
+import Sidebar from "../layout/sidebar/Sidebar";
+import Header from "../layout/header/Header";
 
 const Projects = () => {
     return (
         <div className="contenedor-app">
             <Sidebar/>
-            <div className="section-principal">
+            <div className="seccion-principal">
+                <Header/>
                 <main>
 
                     <div className="contenedor-tareas">
